@@ -1,6 +1,8 @@
 import React from "react";
 import profileim from '../assets/about.jpg'
 import { motion } from "framer-motion";
+import HeroImage from "./HeroImage";
+import TypingEffect from "./TypingEffect";
 
 const Profile = () => {
   return <div className="">
@@ -10,14 +12,24 @@ const Profile = () => {
     initial={{opacity:0,x:-100}}
     transition={{duration:1.5}}
      className="w-full md:w-1/2 ">
-        <h2 className=" tracking-tighter text-5xl p-2 m-auto">KAVALI PAVAN</h2>
-        <p>Hi, I’m  a third-year Computer Science student with a deep passion for front-end development, I thrive on creating dynamic and responsive web experiences. My expertise spans modern technologies including Tailwind CSS, Framer Motion, GSAP, ShadCN, Formik and more allowing me to craft seamless, interactive designs with precision. I take pride in blending creativity with technical skills to build engaging and user-centric digital solutions.</p>
+        <h2 className=" tracking-tighter text-5xl p-2 m-auto">Hello,</h2>
+        
+        <p>"I am Kavali Pavan, a 3rd-year CSE student specializing in full-stack web development. Proficient in React.js, Next.js, Node.js, MongoDB, and Tailwind CSS, I focus on creating scalable applications and seamless API integrations with deployment on GitHub and Vercel."</p>
+        <TypingEffect className=""/>
+        <div className="mt-5">
+          <a href="../../resume.pdf" target="_blank">
+          <button className="bg-[#f5b000fb] p-2 rounded-md">view resume</button>
+          </a>
+        </div>
     </motion.div>
     <motion.div 
     whileInView={{opacity:1,y:0}}
     initial={{opacity:0,y:-100}}
     transition={{duration:1.5}}
-    className=" md:w-1/2 flex justify-center md:justify-end"><img src={profileim} alt="" className="max-w-full h-auto" />
+    className=" md:w-1/2 flex justify-center  md:justify-end  ">
+
+      {/* <img src={profileim} alt="" className="rounded-full max-w-full h-auto" /> */}
+      <HeroImage className="w-full h-full"/>
     </motion.div>
     </div>
   </div>;
