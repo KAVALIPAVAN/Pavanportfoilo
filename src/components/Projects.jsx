@@ -18,7 +18,7 @@ whileInView={{opacity:1,x:0}}
 initial={{opacity:0,x:-100}}
 transition={{duration:2}}
  className="flex flex-wrap cursor-pointer ">
-        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl  hover:scale-105 ">
+        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl ">
           <img src={gemini} alt="" className="sm:w-[25%] sm:h-[25%] w-[60%]  h-[60%] pb-4 m-auto" />
           <div className="flex flex-wrap">
             <h1 className=" font-semibold text-xl mb-2">Gemini-Clone</h1>
@@ -40,7 +40,7 @@ transition={{duration:2}}
     initial={{opacity:0,x:-100}}
     transition={{duration:2}}
       className="flex flex-wrap cursor-pointer ">
-        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl  hover:scale-105 ">
+        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl   ">
           <img src={crypto} alt="" className="sm:w-[25%] sm:h-[25%] w-[60%]  h-[60%] pb-4 m-auto" />
           <div className="flex flex-wrap">
             <h1 className=" font-semibold text-xl mb-2">Crpto-place</h1>
@@ -63,7 +63,7 @@ transition={{duration:2}}
       initial={{opacity:0,x:-100}}
       transition={{duration:2}}
       className="flex flex-wrap cursor-pointer ">
-        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl  hover:scale-105 ">
+        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl ">
           <img src={netflix} alt="" className="sm:w-[25%] sm:h-[25%] w-[60%]  h-[60%] pb-4 m-auto" />
           <div className="flex flex-wrap">
             <h1 className=" font-semibold text-xl mb-2">Netflex-Clone</h1>
@@ -94,7 +94,7 @@ transition={{duration:2}}
       initial={{opacity:0,x:-100}}
       transition={{duration:2}}
        className="flex flex-wrap cursor-pointer mb-3">
-        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl  hover:scale-105 ">
+        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl   ">
           <img src={spotify} alt="" className="sm:w-[25%] sm:h-[25%] w-[60%]  h-[60%] pb-4 m-auto" />
           <div className="flex flex-wrap">
             <h1 className=" font-semibold text-xl mb-2">Spotify-Clone</h1>
