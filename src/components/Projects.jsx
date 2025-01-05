@@ -20,7 +20,7 @@ const Projects = () => {
       >
         <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl ">
           <video
-            src="../../Blog.mp4"
+            src="../../Blog1.mp4"
             className="video-player "
             controls
             width="300"
@@ -66,7 +66,7 @@ const Projects = () => {
       >
         <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl ">
           <video
-            src="../../multi.mp4"
+            src="../../multi1.mp4"
             className="video-player "
             controls
             width="300"
@@ -116,7 +116,7 @@ const Projects = () => {
       >
         <div className="  flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl   ">
           <video
-            src="../../Crypto_Place.mp4"
+            src="../../Crypto_Place1.mp4"
             className="video-player   h-full"
             controls
             width="300"
