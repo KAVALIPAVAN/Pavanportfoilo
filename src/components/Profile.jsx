@@ -14,7 +14,7 @@ const Profile = () => {
      className="w-full md:w-1/2 ">
         <h2 className=" tracking-tighter text-5xl p-2 m-auto">Hello,</h2>
         
-        <p>"I am Kavali Pavan, a 3rd-year CSE student specializing in full-stack web development. Proficient in React.js, Next.js, Node.js, MongoDB, and Tailwind CSS, I focus on creating scalable applications and seamless API integrations with deployment on GitHub and Vercel."</p>
+        <p>"I am Kavali Pavan, a 3rd-year CSE student specializing in full-stack web development. Proficient in React.js, Next.js, Node.js, MongoDB, and Tailwind CSS, I focus on creating scalable applications and seamless API integrations with deployments. "</p>
         <TypingEffect className=""/>
         <div className="mt-5">
           <a href="../../resume.pdf" target="_blank">
