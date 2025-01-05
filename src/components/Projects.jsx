@@ -157,6 +157,7 @@ const Projects = () => {
       transition={{duration:2}}
        className="flex flex-wrap cursor-pointer mb-3">
         <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl   ">
+        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl   ">
           <img src={spotify} alt="" className="sm:w-[25%] sm:h-[25%] w-[60%]  h-[60%] pb-4 m-auto" />
           <div className="flex flex-wrap">
             <h1 className=" font-semibold text-xl mb-2">Spotify-Clone</h1>
