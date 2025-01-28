@@ -12,51 +12,7 @@ const Projects = () => {
         PROJECTS
       </div>
 
-      <motion.div
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 2 }}
-        className="flex flex-wrap cursor-pointer "
-      >
-        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl ">
-          <video
-            src="../../Blog1.mp4"
-            className="video-player "
-            controls
-            width="300"
-            height="180"
-          >
-            Your browser does not support the video tag.
-          </video>
-
-          <div className="flex flex-wrap">
-            <h1 className=" font-semibold text-xl mb-2">Next-blog App</h1>
-            <p className=" text-left">
-              Developed a full-stack Blog Application using Next.js for
-              server-side rendering, Tailwind CSS for responsive UI design, and
-              MongoDB for database management.
-            </p>
-            <div className=" flex justify-between  flex-1 align-middle items-center">
-              <div className=" flex mt-4 gap-4 flex-wrap ">
-                <div className=" rounded-lg bg-[#3352fff6] p-3 text-white font-semibold hover:bg-[#8c2baf] transition-colors duration-300 ">
-                  Next.js
-                </div>
-                <div className=" rounded-lg bg-[#3352fff6] p-3 text-white font-semibold hover:bg-[#8c2baf] transition-colors duration-300 ">
-                  MongoDB
-                </div>
-                <div className="rounded-lg bg-[#3352fff6] p-3 text-white font-semibold hover:bg-[#8c2baf] transition-colors duration-300">
-                  Tailwind CSS{" "}
-                </div>
-              </div>
-              <a href="https://github.com/KAVALIPAVAN/nextblog" target="blank">
-                <div className="rounded-lg bg-[#e27b14f6] px-1 h-10 mt-6 flex items-center text-white font-semibold ">
-                  Code{" "}
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </motion.div>
+      
 
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
@@ -96,11 +52,55 @@ const Projects = () => {
                 </div>
               </div>
               <a
-                href="https://github.com/KAVALIPAVAN/tic-tac-toe-multiplayer-"
+                href="https://tic-tac-toe-multiplayer-eight.vercel.app/"
                 target="blank"
               >
                 <div className="rounded-lg bg-[#e27b14f6] px-1 h-10 mt-6 flex items-center text-white font-semibold ">
-                  Code{" "}
+                  live link
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 2 }}
+        className="flex flex-wrap cursor-pointer "
+      >
+        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl ">
+          <video
+            src="../../todo.mp4"
+            className="video-player "
+            controls
+            width="300"
+            height="180"
+          >
+            Your browser does not support the video tag.
+          </video>
+
+          <div className="flex flex-wrap">
+            <h1 className=" font-semibold text-xl mb-2">To-Do App</h1>
+            <p className=" text-left">
+            I developed a full-stack To-Do app with React, Redux Toolkit (AsyncThunk), Node.js, Express, and MongoDB. The app features a responsive UI built with Tailwind CSS and API testing was done using Postman.
+            </p>
+            <div className=" flex justify-between  flex-1 align-middle items-center">
+              <div className=" flex mt-4 gap-4 flex-wrap ">
+                <div className=" rounded-lg bg-[#3352fff6] p-3 text-white font-semibold hover:bg-[#8c2baf] transition-colors duration-300 ">
+                  Node.js
+                </div>
+                <div className=" rounded-lg bg-[#3352fff6] p-3 text-white font-semibold hover:bg-[#8c2baf] transition-colors duration-300 ">
+                  MongoDB
+                </div>
+                <div className="rounded-lg bg-[#3352fff6] p-3 text-white font-semibold hover:bg-[#8c2baf] transition-colors duration-300">
+                  Redux
+                </div>
+              </div>
+              <a href="https://todo-project-frontend-flame.vercel.app/" target="blank">
+                <div className="rounded-lg bg-[#e27b14f6] px-1 h-10 mt-6 flex items-center text-white font-semibold ">
+                  live link
                 </div>
               </a>
             </div>
@@ -127,11 +127,7 @@ const Projects = () => {
           <div className="flex flex-wrap ">
             <h1 className=" font-semibold text-xl mb-2">Crpto-place</h1>
             <p className=" text-left">
-              Developed a Crypto Price tracking application using React,
-              integrated third-party APIs for real-time data, and utilized React
-              Router DOM for seamless navigation between pages. and hosted the
-              Crypto Price application using GitHub for version control and
-              Vercel for seamless deployment and hosting.
+            Developed a Crypto Price tracking app with React, integrated third-party APIs for real-time data, and used React Router DOM for smooth navigation. Hosted the app on Vercel with GitHub for version control.
             </p>
 
             <div className=" flex justify-between  flex-1 align-middle items-center">
@@ -143,6 +139,52 @@ const Projects = () => {
               <a href="https://crypto-place-one.vercel.app/" target="blank">
                 <div className="rounded-lg bg-[#e27b14f6] px-1 h-10 mt-6 flex items-center text-white font-semibold ">
                   live link
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 2 }}
+        className="flex flex-wrap cursor-pointer "
+      >
+        <div className="flex w-[80%] m-auto gap-[15%] p-4 mt-6 sm:flex-row flex-col transform transition duration-300 shadow-lg hover:shadow-2xl ">
+          <video
+            src="../../Blog1.mp4"
+            className="video-player "
+            controls
+            width="300"
+            height="180"
+          >
+            Your browser does not support the video tag.
+          </video>
+
+          <div className="flex flex-wrap">
+            <h1 className=" font-semibold text-xl mb-2">Next-blog App</h1>
+            <p className=" text-left">
+              Developed a full-stack Blog Application using Next.js for
+              server-side rendering, Tailwind CSS for responsive UI design, and
+              MongoDB for database management.
+            </p>
+            <div className=" flex justify-between  flex-1 align-middle items-center">
+              <div className=" flex mt-4 gap-4 flex-wrap ">
+                <div className=" rounded-lg bg-[#3352fff6] p-3 text-white font-semibold hover:bg-[#8c2baf] transition-colors duration-300 ">
+                  Next.js
+                </div>
+                <div className=" rounded-lg bg-[#3352fff6] p-3 text-white font-semibold hover:bg-[#8c2baf] transition-colors duration-300 ">
+                  MongoDB
+                </div>
+                <div className="rounded-lg bg-[#3352fff6] p-3 text-white font-semibold hover:bg-[#8c2baf] transition-colors duration-300">
+                  Tailwind CSS{" "}
+                </div>
+              </div>
+              <a href="https://github.com/KAVALIPAVAN/nextblog" target="blank">
+                <div className="rounded-lg bg-[#e27b14f6] px-1 h-10 mt-6 flex items-center text-white font-semibold ">
+                  Code{" "}
                 </div>
               </a>
             </div>
