@@ -17,7 +17,7 @@ const Navbar = () => {
         initial={{opacity:0,x:100}}
         transition={{duration:2}}
         className=" flex justify-between gap-4">
-        <a href="https://github.com/KAVALIPAVAN/spotify-clone" target="blank"><FaGithub className=" text-6xl "/></a>
+        <a href="https://github.com/KAVALIPAVAN" target="blank"><FaGithub className=" text-6xl "/></a>
         <a href="https://www.linkedin.com/in/kavali-pavan-598515274/" target="blank">
         <FaLinkedin className=" text-6xl" /></a>
         </motion.div>
